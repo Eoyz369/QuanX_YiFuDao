@@ -12,8 +12,8 @@ body = JSON.parse($response.body)
 body.data.qrCodeColor ="green"
 // body.qrCodeUrl="https://bj.bcebos.com/qr-code/22120919e953ffc480fb.jpg"
 
-body.data.qrCodeOARecord.beginTime = bt
-body.data.qrCodeOARecord.endTime = et
+body.data.beginTime = bt
+body.data.endTime = et
 
 
 // body.data.qrCodeOARecord.applyStatus="https://meeting-image-1257318859.cos.ap-beijing.myqcloud.com/htmlImages/yfd/student/postmark/pic-ing.png"
