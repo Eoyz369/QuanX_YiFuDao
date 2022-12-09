@@ -16,7 +16,7 @@ body.data.qrCodeOARecord = 4
 body.data.qrCodeOARecord.endTime = et
 
 
-body.data.qrCodeOARecord.applyStatus="https://meeting-image-1257318859.cos.ap-beijing.myqcloud.com/htmlImages/yfd/student/postmark/pic-ing.png"
+body.data.qrCodeOARecord.applyStatus=4
 
 $done({ body: JSON.stringify(body) });
 
