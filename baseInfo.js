@@ -13,8 +13,8 @@ body.data.qrCodeColor ="green"
 body.data.qrCodeUrl="https://bj.bcebos.com/qr-code/22120919e953ffc480fb.jpg"
 
 // body.data.qrCodeOARecord = ""
-body.data.qrCodeOARecord.endTime = 'et'
-body.data.qrCodeOARecord.applyStatus='4'
+body.data.qrCodeOARecord.endTime =et
+body.data.qrCodeOARecord.applyStatus=4
 
 
 
