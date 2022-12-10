@@ -12,9 +12,9 @@ body = JSON.parse($response.body)
 body.data.qrCodeColor ="green"
 body.data.qrCodeUrl="https://bj.bcebos.com/qr-code/22120919e953ffc480fb.jpg"
 
-// body.data.qrCodeOARecord = ""
-body.data.qrCodeOARecord.endTime =et
-body.data.qrCodeOARecord.applyStatus=4
+body.data.qrCodeOARecord = ""
+// body.data.qrCodeOARecord.endTime =et
+// body.data.qrCodeOARecord.applyStatus="https://meeting-image-1257318859.cos.ap-beijing.myqcloud.com/htmlImages/yfd/student/postmark/pic-ing.png"
 
 
 
