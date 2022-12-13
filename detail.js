@@ -1,8 +1,14 @@
+mt=new Date()
+mt.setMinutes(0)
+bt = mt.getTime()-10800000
+et = mt.getTime()+10800000
+
 
 
 body = JSON.parse($response.body)
 body.data.askForLeaveDetail.applyStatus = 4
-
+body.data.askForLeaveDetail.beginTime = bt
+body.data.askForLeaveDetail.endTime = et
 
 body.data.askForLeaveDetail.chains[1].status = 3
 
