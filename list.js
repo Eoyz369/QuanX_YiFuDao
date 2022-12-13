@@ -1,6 +1,6 @@
 mt=new Date()
 mt.setMinutes(0)
-bt = mt.getTime()-7200000
+bt = mt.getTime()-10800000
 et = mt.getTime()+10800000
 
 body = JSON.parse($response.body)
